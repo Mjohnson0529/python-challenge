@@ -32,7 +32,7 @@ with open(budget_csv) as csvfile:
     
     # move to first row
     start_row = next(csvreader)
-    print(start_row)
+   
     # count the first month
     total_months += 1
 
